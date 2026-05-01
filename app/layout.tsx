@@ -8,6 +8,9 @@ const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sagarfashion.world'),
+  verification: {
+    google: 'PYQCoos_5f5wfDFcyK9m-I5UDuIexXtGOsCRgkPTnw4',
+  },
   title: {
     default: 'Sagar Fashion | Global Exporters of Indian Ethnic Wear',
     template: '%s | Sagar Fashion'
